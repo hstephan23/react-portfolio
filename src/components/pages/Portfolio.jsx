@@ -13,7 +13,7 @@ export default function Portfolio() {
                     </section>
             </a>
             <a id="horoscope">
-                    <img src="" alt="Image of Horoscope Page" className="images" />
+                    <img src="src/assets/horoscope.png" alt="Image of Horoscope Page" className="images" />
                     <section className="front_text">
                         <h3><a href="https://hstephan23.github.io/astrology-project/">Horoscope Site</a></h3>
                         <p>CSS/HTML/JavaScript</p>
@@ -21,7 +21,7 @@ export default function Portfolio() {
                     </section>
             </a>
             <a id="password">
-                    <img src="" alt="Image of Password Generator Page" className="images" />
+                    <img src="src/assets/password.png" alt="Image of Password Generator Page" className="images" />
                     <section className="front_text">
                         <h3><a href="https://hstephan23.github.io/password_generator_challenge/">Password Generator</a></h3>
                         <p>CSS/HTML/JavaScript</p>
@@ -29,7 +29,7 @@ export default function Portfolio() {
                     </section>
             </a>
             <a id="music">
-                    <img src="" alt="Image of Music Page" className="images" />
+                    <img src="src/assets/music.png" alt="Image of Music Page" className="images" />
                     <section className="front_text">
                         <h3><a href="https://daily-music-posts-6e938fa20b09.herokuapp.com">Daily Music Posts</a></h3>
                         <p>Node.js/Handlebars/Sequelize</p>
@@ -37,7 +37,7 @@ export default function Portfolio() {
                     </section>
             </a>
             <a id="weather">
-                    <img src="" alt="Image of Weather Page" className="images" />
+                    <img src="src/assets/weather.png" alt="Image of Weather Page" className="images" />
                     <section className="front_text">
                         <h3><a href="https://hstephan23.github.io/weather-challenge/">Weather Site</a></h3>
                         <p>CSS/HTML/JavaScript</p>
@@ -45,7 +45,7 @@ export default function Portfolio() {
                     </section>
             </a>
             <a id="text">
-                    <img src="" alt="Image of Text Editor Page" className="images" />
+                    <img src="src/assets/text.png" alt="Image of Text Editor Page" className="images" />
                     <section className="front_text">
                         <h3><a href="https://text-editor-challenge-hstephan.onrender.com/">Text Editor</a></h3>
                         <p>Node.js/Express/MongoDB</p>
