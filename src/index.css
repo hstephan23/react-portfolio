@@ -18,11 +18,25 @@ a {
     
 }
 
-li {
+.nav-tab,
+.footer-tab {
     list-style-type: none;
     display: inline;
     margin: 5%;
 }
 
+.title {
+    padding-right: 35%;
+}
 
+.footer-list {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+}
+
+.title-center {
+    text-align: center
+}
 

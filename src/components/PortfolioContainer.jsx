@@ -31,7 +31,7 @@ export default function PortfolioContainer() {
   return (
     <div>
       <header>
-        <h1>Harrison Stephan</h1>
+        <h1 className='title'>Harrison Stephan</h1>
         {/* We are passing the currentPage from state and the function to update it */}
         <NavTabs currentPage={currentPage} handlePageChange={handlePageChange} />
       </header>

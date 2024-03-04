@@ -1,9 +1,9 @@
 export default function Portfolio() {
     return (
       <div>
-        <h1>Portfolio Page</h1>
+        <h1 className="title-center">Portfolio Page</h1>
         <section id="project_pieces">
-            <h2 id="work">My Work</h2>
+            <h2 id="work" className="title-center">My Work</h2>
             <a id="portfolio">
                     <img src="src/assets/portfolio.png" alt="Image of Portfolio Page" className="images" />
                     <section className="">

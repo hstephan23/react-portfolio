@@ -1,7 +1,7 @@
 export default function About() {
     return (
       <div>
-        <h1>About Page</h1>
+        <h1 className="title-center">About Page</h1>
         <img src="src/assets/profile.jpeg" alt="Picture of Harrison" className="profile-picture"></img>
         <p>
           I am a young, up and coming developer. I am a current student at Brigham Young University, studying Business Management. I am also a current
