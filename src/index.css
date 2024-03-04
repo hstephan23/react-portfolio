@@ -25,6 +25,15 @@ a {
     margin: 5%;
 }
 
+#home-tab:hover, 
+#about-tab:hover,
+#resume-tab:hover,
+#portfolio-tab:hover,
+#contact-tab:hover,
+.footer-link:hover {
+    text-decoration: underline;
+}
+
 .main-title {
     padding-right: 35%;
 }
@@ -74,4 +83,36 @@ a {
     border-right: white 5px solid
 }
 
+.project-pieces {
+    display: grid;
+    grid-template-columns: 1 fr 1 fr;
 
+}
+
+#portfolio, 
+#horoscope, 
+#password,
+#music,
+#weather,
+#text {
+    position: relative;
+    display: inline-block;
+    margin: 10px;
+}
+
+.images {
+    width: 40%;
+}
+
+.front-text {
+    position: absolute;
+    bottom: 0;
+    text-align: center;
+    background-color: black;
+    padding: 1%
+}
+
+.project-title:hover,
+.repository-link:hover {
+    text-decoration: underline;
+}

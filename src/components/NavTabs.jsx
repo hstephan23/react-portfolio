@@ -3,6 +3,7 @@ function NavTabs({ currentPage, handlePageChange }) {
       <ul className="nav-list">
         <li className="nav-tab">
           <a
+            id="home-tab"
             href="#home"
             onClick={() => handlePageChange('Home')}
             // This is a conditional (ternary) operator that checks to see if the current page is "Home"
@@ -14,6 +15,7 @@ function NavTabs({ currentPage, handlePageChange }) {
         </li>
         <li className="nav-tab">
           <a
+            id="about-tab"
             href="#aboutMe"
             onClick={() => handlePageChange('About')}
             // Check to see if the currentPage is `About`, and if so we use the active link class from bootstrap. Otherwise, we set it to a normal nav-link
@@ -24,6 +26,7 @@ function NavTabs({ currentPage, handlePageChange }) {
         </li>
         <li className="nav-tab">
           <a
+            id="resume-tab"
             href="#resume"
             onClick={() => handlePageChange('Resume')}
             // Check to see if the currentPage is `Resume`, and if so we use the active link class from bootstrap. Otherwise, we set it to a normal nav-link
@@ -33,6 +36,7 @@ function NavTabs({ currentPage, handlePageChange }) {
           </a>
         </li><li className="nav-tab">
           <a
+            id="portfolio-tab"
             href="#portfolio"
             onClick={() => handlePageChange('Portfolio')}
             // Check to see if the currentPage is `Portfolio`, and if so we use the active link class from bootstrap. Otherwise, we set it to a normal nav-link
@@ -43,6 +47,7 @@ function NavTabs({ currentPage, handlePageChange }) {
         </li>
         <li className="nav-tab">
           <a
+            id="contact-tab"
             href="#contact"
             onClick={() => handlePageChange('Contact')}
             // Check to see if the currentPage is `Contact`, and if so we use the active link class from bootstrap. Otherwise, we set it to a normal nav-link
