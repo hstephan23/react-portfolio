@@ -25,7 +25,7 @@ a {
     margin: 5%;
 }
 
-.title {
+.main-title {
     padding-right: 35%;
 }
 
@@ -39,4 +39,39 @@ a {
 .title-center {
     text-align: center
 }
+
+.profile-picture {
+    width: 20%;
+    border-radius: 10%;
+    margin-left: 40%;
+}
+
+.download-paragraph {
+    text-align: center;
+}
+
+.download {
+    text-decoration: underline;
+}
+
+.download:hover {
+    font-weight: bold;
+}
+
+#education, 
+#experience,
+#volunteer,
+#skills {
+    display: grid;
+    grid-template-columns: 0.5fr 2fr;
+    grid-template-rows: auto;
+    gap: 40px;
+    justify-content: space-between;
+    padding-bottom: 20px;
+}
+
+.title {
+    border-right: white 5px solid
+}
+
 
