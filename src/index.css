@@ -1,0 +1,28 @@
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
+    background-image: linear-gradient(to bottom right, #00468B, #7272FE);
+    background-repeat: no-repeat;
+    min-height: 100vh;
+}
+
+header {
+    display: flex;
+    align-items: baseline;
+}
+
+a {
+    color: none;
+    color: white;
+    text-decoration: none;
+    
+}
+
+li {
+    list-style-type: none;
+    display: inline;
+    margin: 5%;
+}
+
+
+
