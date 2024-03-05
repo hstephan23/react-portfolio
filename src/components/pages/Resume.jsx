@@ -2,7 +2,7 @@ export default function Resume() {
     return (
       <div>
         <h1 className="title-center">Resume</h1>
-        <p className="download-paragraph"><a href="src/assets/Resume.docx" className="download" download>Download Harrison's Resume</a></p>
+        <p className="download-paragraph"><a href="../src/assets/Resume.docx" className="download" download>Download Harrison's Resume</a></p>
         <section id="main_resume">
             <section id="education">
                 <h2 className="title" id="education-title">EDUCATION</h2>
