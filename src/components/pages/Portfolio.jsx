@@ -44,7 +44,7 @@ export default function Portfolio() {
                     </section>
             </section>
             <section id="text">
-                    <img src="public/text.png" alt="Image of Text Editor Page" className="images" />
+                    <img src="/text.png" alt="Image of Text Editor Page" className="images" />
                     <section className="front-text">
                         <h3 className="project-title"><a href="https://text-editor-challenge-hstephan.onrender.com/">Text Editor</a></h3>
                         <p className="technology-title">Node.js/Express/MongoDB</p>
