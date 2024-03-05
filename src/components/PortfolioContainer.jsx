@@ -29,7 +29,7 @@ export default function PortfolioContainer() {
   const handlePageChange = (page) => setCurrentPage(page);
 
   return (
-    <div>
+    <>
       <header>
         <h1 className='main-title'>Harrison Stephan</h1>
         {/* We are passing the currentPage from state and the function to update it */}
@@ -37,6 +37,6 @@ export default function PortfolioContainer() {
       </header>
       {/* Here we are calling the renderPage method which will return a component  */}
       <main className="mx-3">{renderPage()}</main>
-    </div>
+    </>
   );
 }

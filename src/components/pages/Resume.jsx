@@ -8,10 +8,10 @@ export default function Resume() {
                 <h2 className="title" id="education-title">EDUCATION</h2>
                 <section className="subtext">
                     <p><b>Brigham Young University: Aug 2019 to Present</b></p>
-                    <p><em>Bachelor of General Studies, Emphasis in Business and Technology Management</em></p>
+                    <p><em>Bachelor of General Studies, Emphasis in Business Management</em></p>
                     <p><em>Minor in Chemistry</em></p>
                     <ul>
-                        <li>GPA 3.76</li>
+                        <li>GPA 3.62</li>
                         <li>Half-Tuition Scholarship with National Merit</li>
                         <li>Program Director for the Boys and Girls Club</li>
                     </ul>

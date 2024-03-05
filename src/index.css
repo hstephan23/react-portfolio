@@ -6,16 +6,18 @@ body {
     min-height: 100vh;
 }
 
-header {
-    display: flex;
-    align-items: baseline;
-}
-
 a {
     color: none;
     color: white;
     text-decoration: none;
     
+}
+
+header {
+    display: flex;
+    align-items: baseline;
+    background-image: linear-gradient(to right, black, rgb(106, 104, 104));
+    padding-left: 5%;
 }
 
 .nav-tab,
@@ -117,4 +119,18 @@ a {
 .project-title:hover,
 .repository-link:hover {
     text-decoration: underline;
+}
+
+#name,
+#email,
+#message {
+    width: 30%;
+}
+
+#message {
+    padding-bottom: 20%;
+    resize: none;
+    overflow-y: auto;
+    overflow-x: hidden;
+    white-space: normal;
 }
