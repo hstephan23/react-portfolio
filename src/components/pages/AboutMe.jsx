@@ -2,7 +2,7 @@ export default function About() {
     return (
       <div>
         <h1 className="title-center">About Page</h1>
-        <img src="src/assets/profile.jpeg" alt="Picture of Harrison" className="profile-picture"></img>
+        <img src="public/profile.jpeg" alt="Picture of Harrison" className="profile-picture"></img>
         <p>
           I am a young, up and coming developer. I am a current student at Brigham Young University, studying Business Management. I am also a current
           student at UC Berkeley, where I am taking a fall-stack coding bootcamp. I am proficient in Python, CSS, HTML, JavaScript, React, Sequelize, MySQL,
