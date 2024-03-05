@@ -83,7 +83,7 @@ export default function Contact() {
   };
 
   return (
-    <section>
+    <section id="contact-form">
     <form onSubmit={handleSubmit}>
       <label htmlFor="name">Name:</label><br/>
       <input
