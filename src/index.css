@@ -3,6 +3,7 @@ body {
     color: white;
     background-image: linear-gradient(to bottom right, #00468B, #7272FE);
     background-repeat: no-repeat;
+    background-size: cover;
     min-height: 100vh;
 }
 
@@ -145,4 +146,48 @@ header {
     overflow-y: auto;
     overflow-x: hidden;
     white-space: normal;
+}
+
+/* For small screens */
+@media screen and (max-width: 768px) {
+    body {
+        min-height: 200vh;
+    }
+
+    header {
+        padding-left: 2%; 
+    }
+
+    .main-title {
+        padding: 0;
+        font-size: 15px;
+    }
+    
+    .nav-tab,
+    .footer-tab {
+        margin: 0;
+    }
+
+    .footer-list {
+        margin-left: 25%;
+    }
+    
+    .profile-picture {
+        width: 50%; 
+    }
+    
+    #project-pieces {
+        grid-template-columns: repeat(2, minmax(0, 1fr)); 
+    }
+}
+
+/* For extra small screens */
+@media screen and (max-width: 576px) {
+    .profile-picture {
+        width: 70%; 
+    }
+    
+    #project-pieces {
+        grid-template-columns: repeat(1, minmax(0, 1fr)); 
+    }
 }
