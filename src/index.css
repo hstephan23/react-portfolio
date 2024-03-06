@@ -20,6 +20,14 @@ header {
     padding-left: 5%;
 }
 
+.logo {
+    height: 50px;
+}
+
+.logo:hover {
+    height: 55px;
+}
+
 .nav-tab,
 .footer-tab {
     list-style-type: none;
@@ -32,7 +40,8 @@ header {
 #resume-tab:hover,
 #portfolio-tab:hover,
 #contact-tab:hover,
-.footer-link:hover {
+.footer-link:hover, 
+.email:hover {
     text-decoration: underline;
 }
 
@@ -41,10 +50,9 @@ header {
 }
 
 .footer-list {
-    position: fixed;
-    bottom: 0;
-    width: 100%;
+    margin-left: 40%;
     text-align: center;
+    display: flex;
 }
 
 .title-center {
